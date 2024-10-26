@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Moaze002/Documents/mlops-Spotify/mlruns/0/b89b8cb3c777464b818b8b76db9a8eeb/artifacts
+end_time: 1729973985157
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b89b8cb3c777464b818b8b76db9a8eeb
+run_name: languid-cat-666
+run_uuid: b89b8cb3c777464b818b8b76db9a8eeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729973982479
+status: 3
+tags: []
+user_id: Moaze002

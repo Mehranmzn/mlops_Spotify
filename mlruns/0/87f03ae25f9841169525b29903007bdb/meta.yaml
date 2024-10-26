@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/Moaze002/Documents/mlops-Spotify/mlruns/0/87f03ae25f9841169525b29903007bdb/artifacts
+end_time: 1729973957052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 87f03ae25f9841169525b29903007bdb
+run_name: brawny-smelt-210
+run_uuid: 87f03ae25f9841169525b29903007bdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729973955439
+status: 3
+tags: []
+user_id: Moaze002
