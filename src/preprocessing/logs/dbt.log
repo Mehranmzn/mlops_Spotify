@@ -1,0 +1,49 @@
+[0m12:03:44.094203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114057f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11408d310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11408dfd0>]}
+
+
+============================== 12:03:44.097568 | 3619dcf5-3c86-484d-b529-9503f4ccfe30 ==============================
+[0m12:03:44.097568 [info ] [MainThread]: Running with dbt=1.7.18
+[0m12:03:44.097969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/Moaze002/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init mlopsproject', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:03:44.098591 [debug] [MainThread]: Starter project path: /Users/Moaze002/.local/share/virtualenvs/mlops-Spotify-JWwTts2q/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:03:44.103253 [info ] [MainThread]: 
+Your new dbt project "mlopsproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:03:44.103564 [info ] [MainThread]: Setting up your profile.
+[0m12:06:12.654342 [info ] [MainThread]: Profile mlopsproject written to /Users/Moaze002/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:06:12.926649 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 148.885, "process_user_time": 2.762844, "process_kernel_time": 0.532262, "process_mem_max_rss": "175374336", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:06:12.928597 [debug] [MainThread]: Command `dbt init` succeeded at 12:06:12.928256 after 148.89 seconds
+[0m12:06:12.929982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11408f890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041e7910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10432f810>]}
+[0m12:06:12.931048 [debug] [MainThread]: Flushing usage events
+[0m12:06:37.221778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051e28d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1051e1210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10524a5d0>]}
+
+
+============================== 12:06:37.224382 | 4ac26434-ef41-446f-b597-431c5271c5b9 ==============================
+[0m12:06:37.224382 [info ] [MainThread]: Running with dbt=1.7.18
+[0m12:06:37.224735 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/Moaze002/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:06:37.225144 [info ] [MainThread]: dbt version: 1.7.18
+[0m12:06:37.225328 [info ] [MainThread]: python version: 3.11.6
+[0m12:06:37.225515 [info ] [MainThread]: python path: /Users/Moaze002/.local/share/virtualenvs/mlops-Spotify-JWwTts2q/bin/python
+[0m12:06:37.225783 [info ] [MainThread]: os info: macOS-14.6.1-arm64-arm-64bit
+[0m12:06:37.964861 [info ] [MainThread]: Using profiles dir at /Users/Moaze002/.dbt
+[0m12:06:37.965142 [info ] [MainThread]: Using profiles.yml file at /Users/Moaze002/.dbt/profiles.yml
+[0m12:06:37.965314 [info ] [MainThread]: Using dbt_project.yml file at /Users/Moaze002/Documents/mlops-Spotify/src/preprocessing/dbt_project.yml
+[0m12:06:37.965528 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:06:37.967660 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.7829557, "process_user_time": 2.366142, "process_kernel_time": 0.905643, "process_mem_max_rss": "183369728", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:06:37.967929 [debug] [MainThread]: Command `dbt debug` failed at 12:06:37.967865 after 0.78 seconds
+[0m12:06:37.968116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10524a4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100c237d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105231dd0>]}
+[0m12:06:37.968310 [debug] [MainThread]: Flushing usage events
